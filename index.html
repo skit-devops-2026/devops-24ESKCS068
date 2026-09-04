@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Management System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Student Management System</h1>
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="students.html">Students</a>
+            <a href="courses.html">Courses</a>
+            <a href="teachers.html">Teachers</a>
+        </nav>
+    </header>
+
+    <section>
+        <h2>Welcome to Student Management System</h2>
+
+        <p>
+            A simple platform to manage students,
+            courses, teachers and academic information.
+        </p>
+
+        <button onclick="welcomeMessage()">Welcome</button>
+
+        <a href="students.html">
+            <button onclick="showMessage()">View Students</button>
+        </a>
+
+        <a href="courses.html">
+            <button>View Courses</button>
+        </a>
+
+        <a href="teachers.html">
+            <button>View Teachers</button>
+        </a>
+    </section>
+
+    <section>
+        <h2>Dashboard</h2>
+
+        <table>
+            <tr>
+                <th>Total Students</th>
+                <th>Total Courses</th>
+                <th>Total Teachers</th>
+                <th>Departments</th>
+            </tr>
+
+            <tr>
+                <td>250</td>
+                <td>15</td>
+                <td>20</td>
+                <td>6</td>
+            </tr>
+        </table>
+    </section>
+
+    <section>
+        <h2>Quick Actions</h2>
+
+        <ul>
+            <li><a href="students.html">View Student List</a></li>
+            <li><a href="courses.html">Manage Courses</a></li>
+            <li><a href="teachers.html">View Teachers</a></li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Recent Students</h2>
+
+        <table>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Course</th>
+                <th>Year</th>
+            </tr>
+
+            <tr>
+                <td>101</td>
+                <td>Rahul Sharma</td>
+                <td>B.Tech CSE</td>
+                <td>2nd Year</td>
+            </tr>
+
+            <tr>
+                <td>102</td>
+                <td>Priya Singh</td>
+                <td>B.Tech CSE</td>
+                <td>2nd Year</td>
+            </tr>
+
+            <tr>
+                <td>103</td>
+                <td>Aman Gupta</td>
+                <td>B.Tech IT</td>
+                <td>3rd Year</td>
+            </tr>
+        </table>
+    </section>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
