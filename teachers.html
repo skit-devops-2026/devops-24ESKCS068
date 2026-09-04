@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Teachers</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <h1>Student Management System</h1>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="students.html">Students</a>
+        <a href="courses.html">Courses</a>
+        <a href="teachers.html">Teachers</a>
+    </nav>
+</header>
+
+<section>
+
+    <h2>Add Teacher</h2>
+
+    <input type="text" id="teacherId" placeholder="Teacher ID">
+    <input type="text" id="teacherName" placeholder="Teacher Name">
+    <input type="text" id="teacherDepartment" placeholder="Department">
+    <input type="text" id="teacherSubject" placeholder="Subject">
+
+    <button onclick="addTeacher()">Add Teacher</button>
+
+</section>
+
+<section>
+
+    <h2>Teacher List</h2>
+
+    <table id="teacherTable">
+
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Department</th>
+            <th>Subject</th>
+        </tr>
+
+        <tr>
+            <td>T101</td>
+            <td>Dr. Raj Sharma</td>
+            <td>Computer Science</td>
+            <td>Data Structures</td>
+        </tr>
+
+        <tr>
+            <td>T102</td>
+            <td>Dr. Neha Gupta</td>
+            <td>Computer Science</td>
+            <td>DBMS</td>
+        </tr>
+
+        <tr>
+            <td>T103</td>
+            <td>Mr. Amit Singh</td>
+            <td>Information Technology</td>
+            <td>Web Development</td>
+        </tr>
+
+    </table>
+
+</section>
+
+<script src="script.js"></script>
+
+</body>
+</html>
