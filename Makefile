@@ -8,6 +8,7 @@ install:
 
 test:
 	bash scripts/test.sh
+	python3 -m unittest discover -s tests -v
 
 build:
 	@echo "Static HTML/CSS/JS project - no build step required"
