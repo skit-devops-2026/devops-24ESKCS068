@@ -20,11 +20,11 @@ This Student Management System is a comprehensive web application used to manage
 
 ## Live URL
 
-https://aryansharma68.github.io/student-management-system-2/
+https://student-management-system-2-b3k2.onrender.com/
 
-The application is deployed live on GitHub Pages:
-- Web Application: [https://aryansharma68.github.io/student-management-system-2/](https://aryansharma68.github.io/student-management-system-2/)
-- Health Endpoint: [https://aryansharma68.github.io/student-management-system-2/health](https://aryansharma68.github.io/student-management-system-2/health)
+The application is deployed live on Render:
+- Web Application: [https://student-management-system-2-b3k2.onrender.com/](https://student-management-system-2-b3k2.onrender.com/)
+- Health Endpoint: [https://student-management-system-2-b3k2.onrender.com/health](https://student-management-system-2-b3k2.onrender.com/health)
 
 ## Health endpoint
 
